@@ -65,8 +65,8 @@ public class MemberRepository {
 		}
 	}
 
-	public void addMember(Member m){
-		members.add(m);		 	 
+	public boolean addMember(Member m){
+		return members.add(m);
 	}
 	public void addEntry(Entry e){
 		entries.add(e);		 	 
