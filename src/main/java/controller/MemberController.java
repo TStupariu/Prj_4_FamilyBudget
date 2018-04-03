@@ -27,8 +27,8 @@ public class MemberController {
         return mr.addMember(aMemebr);
     }
 
-    public void addEntry(Entry oneEntry) {
-        mr.addEntry(oneEntry);    	
+    public boolean addEntry(Entry oneEntry) {
+        return mr.addEntry(oneEntry);
     }
 
     public List<Entry> allEntries() {

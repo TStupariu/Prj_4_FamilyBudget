@@ -3,8 +3,10 @@ import model.Entry;
 import model.Member;
 import org.junit.Test;
 import repository.MemberRepository;
+import ui.MemberUI;
 
 import java.util.List;
+import java.util.Scanner;
 
 public class TestCases {
 
@@ -30,4 +32,69 @@ public class TestCases {
         boolean success2 = ctrl.addMember(m);
         assert(!success2);
     }
+
+    @Test
+    public void AddMemberRepoTest () {
+        Member m = new Member("Snoop", "Dawg");
+        boolean success = repo.addMember(m);
+        assert(success);
+    }
+
+    @Test
+    public void AddDuplicateMemberRepoTest () {
+        Member m = new Member("Snoop", "Dawg");
+        repo.addMember(m);
+        boolean success2 = repo.addMember(m);
+        assert(!success2);
+    }
+
+
+    @Test
+    public void AddEntryTest () {
+        Member m = new Member("Snoop", "9");
+        Entry e = new Entry("cost", 300, 9);
+        boolean ok = this.ctrl.addEntry(e);
+        assert(ok);
+    }
+
+    @Test
+    public void AddEntryRepoTest () {
+        Member m = new Member("Snoop", "9");
+        Entry e = new Entry("cost", 300, 9);
+        boolean ok = this.repo.addEntry(e);
+        assert(ok);
+    }
+
+    @Test
+    public void AddEntryBadIdTest () {
+        Member m = new Member("Snoop", "DAWG");
+        Entry e = new Entry("cost", 300, 9);
+        boolean ok = this.ctrl.addEntry(e);
+        assert(!ok);
+    }
+
+    @Test
+    public void AddEntryBadIdRepoTest () {
+        Member m = new Member("Snoop", "dawg");
+        Entry e = new Entry("cost", 300, 9);
+        boolean ok = this.repo.addEntry(e);
+        assert(!ok);
+    }
+
+    @Test
+    public void UISetController () {
+        MemberUI ui = new MemberUI(ctrl);
+        MemberController mCtrl = new MemberController(new MemberRepository());
+        ui.setCtrl(mCtrl);
+        assert(ui.getCtrl() == mCtrl);
+    }
+
+    @Test
+    public void UISetIn () {
+        MemberUI ui = new MemberUI(ctrl);
+        Scanner nsc = new Scanner(System.in);
+        ui.setIn(nsc);
+        assert(nsc == ui.getIn());
+    }
+
 }
