@@ -90,7 +90,7 @@ public class TestCases {
     }
 
     @Test
-    public void UISetScanner () {
+    public void UISetIn () {
         MemberUI ui = new MemberUI(ctrl);
         Scanner nsc = new Scanner(System.in);
         ui.setIn(nsc);

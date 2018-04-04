@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69676be8-0894-4a70-841a-29c9aec652e8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/MemberController.java" afterPath="$PROJECT_DIR$/src/main/java/controller/MemberController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Entry.java" afterPath="$PROJECT_DIR$/src/main/java/model/Entry.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repository/MemberRepository.java" afterPath="$PROJECT_DIR$/src/main/java/repository/MemberRepository.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ui/MemberUI.java" afterPath="$PROJECT_DIR$/src/main/java/ui/MemberUI.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestCases.java" afterPath="$PROJECT_DIR$/src/test/java/TestCases.java" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestCases.class" afterPath="$PROJECT_DIR$/target/test-classes/TestCases.class" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,8 +32,8 @@
       <file leaf-file-name="MemberRepository.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/repository/MemberRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="83" column="13" lean-forward="true" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
+            <state relative-caret-position="165">
+              <caret line="72" column="5" lean-forward="true" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2425#2426#0" expanded="true" />
@@ -120,8 +118,8 @@
       <file leaf-file-name="TestCases.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestCases.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="930">
-              <caret line="62" column="28" lean-forward="true" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
+            <state relative-caret-position="194">
+              <caret line="92" column="28" lean-forward="true" selection-start-line="92" selection-start-column="28" selection-end-line="92" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -169,9 +167,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/model/Entry.java" />
         <option value="$PROJECT_DIR$/src/main/java/ui/MemberUI.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestCases.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/MemberController.java" />
         <option value="$PROJECT_DIR$/src/main/java/repository/MemberRepository.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestCases.java" />
       </list>
     </option>
   </component>
@@ -399,14 +397,14 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="TestCases.UISetController" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCases.DecisionTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Prj_4_FamilyBudget" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestCases" />
-      <option name="METHOD_NAME" value="UISetController" />
+      <option name="METHOD_NAME" value="DecisionTrue" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -501,18 +499,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.TestCases.AddEntryRepoTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TestCases.UISetController" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TestCases.UISetIn" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TestCases" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TestCases.AddEntryTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TestCases.UISetIn" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestCases" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestCases.AddEntryTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestCases.DecisionTrue" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.TestCases" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestCases.AddEntryRepoTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TestCases.AddEntryTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TestCases.UISetIn" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TestCases.UISetController" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestCases.DecisionTrue" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestCases.AddEntryRepoTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestCases.AddEntryTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestCases.UISetIn" />
       </list>
     </recent_temporary>
   </component>
@@ -534,7 +532,7 @@
       <workItem from="1522148729378" duration="851000" />
       <workItem from="1522150708540" duration="289000" />
       <workItem from="1522151026348" duration="2213000" />
-      <workItem from="1522775050391" duration="2845000" />
+      <workItem from="1522775050391" duration="4089000" />
     </task>
     <task id="LOCAL-00001" summary="Added initial 2 tests">
       <created>1522152612232</created>
@@ -543,27 +541,25 @@
       <option name="project" value="LOCAL" />
       <updated>1522152612232</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added other tests">
+      <created>1522826924315</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1522826924315</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
     <history-entry file="TestCases - 2018.04.04 at 08h 56m 05s.xml">
       <configuration name="TestCases" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestCases - 2018.04.04 at 10h 22m 00s.xml">
+      <configuration name="TestCases" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="TestCases_AddEntryRepoTest - 2018.04.04 at 08h 56m 00s.xml">
       <configuration name="TestCases.AddEntryRepoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCases_AddEntryTest - 2018.04.04 at 08h 50m 53s.xml">
-      <configuration name="TestCases.AddEntryTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCases_AddEntryTest - 2018.04.04 at 08h 52m 23s.xml">
-      <configuration name="TestCases.AddEntryTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCases_AddEntryTest - 2018.04.04 at 08h 52m 39s.xml">
-      <configuration name="TestCases.AddEntryTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCases_AddEntryTest - 2018.04.04 at 08h 53m 37s.xml">
-      <configuration name="TestCases.AddEntryTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestCases_AddEntryTest - 2018.04.04 at 08h 54m 00s.xml">
       <configuration name="TestCases.AddEntryTest" configurationId="JUnit" />
@@ -577,9 +573,18 @@
     <history-entry file="TestCases_AddEntryTest - 2018.04.04 at 08h 55m 56s.xml">
       <configuration name="TestCases.AddEntryTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestCases_DecisionTrue - 2018.04.04 at 10h 21m 02s.xml">
+      <configuration name="TestCases.DecisionTrue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCases_DecisionTrue - 2018.04.04 at 10h 21m 13s.xml">
+      <configuration name="TestCases.DecisionTrue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCases_DecisionTrue - 2018.04.04 at 10h 21m 48s.xml">
+      <configuration name="TestCases.DecisionTrue" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7724000" />
+    <option name="totallyTimeSpent" value="8968000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -593,7 +598,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -623,40 +628,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added initial 2 tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added initial 2 tests" />
+    <MESSAGE value="Added other tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added other tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/repository/MemberRepository.java</url>
-          <line>85</line>
-          <properties />
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/repository/MemberRepository.java</url>
-          <line>86</line>
-          <properties />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/repository/MemberRepository.java</url>
-          <line>87</line>
-          <properties />
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/controller/MemberController.java</url>
           <line>31</line>
           <properties />
           <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/repository/MemberRepository.java</url>
-          <line>83</line>
-          <properties />
-          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="15" />
@@ -1110,8 +1092,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/repository/MemberRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="83" column="13" lean-forward="true" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
+        <state relative-caret-position="165">
+          <caret line="72" column="5" lean-forward="true" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2425#2426#0" expanded="true" />
@@ -1122,8 +1104,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestCases.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="62" column="28" lean-forward="true" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
+        <state relative-caret-position="194">
+          <caret line="92" column="28" lean-forward="true" selection-start-line="92" selection-start-column="28" selection-end-line="92" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
