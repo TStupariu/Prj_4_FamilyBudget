@@ -97,4 +97,18 @@ public class TestCases {
         assert(nsc == ui.getIn());
     }
 
+    @Test
+    public void DecisionFalse () {
+        Entry e = new Entry("cost", 200, "10");
+        boolean ok = repo.addEntry(e);
+        assert(!ok);
+    }
+
+    @Test
+    public void DecisionTrue () {
+        Entry e = new Entry("cost", 200, "1");
+        boolean ok = repo.addEntry(e);
+        assert(ok);
+    }
+
 }
