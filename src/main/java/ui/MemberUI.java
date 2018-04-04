@@ -79,7 +79,7 @@ public class MemberUI {
 				
 				System.out.println("Enter the id of the member:");
 				String idS = in.nextLine();
-				int idInt=Integer.parseInt(idS);
+				String idInt=idS;
 				
 				Entry e= new Entry(type, valueInt, idInt);			
 				ctrl.addEntry(e);
@@ -94,7 +94,7 @@ public class MemberUI {
 			if(cmd==4)
 			{
 				System.out.println("Give the ID of the member :");
-				int id = in.nextInt();
+				String id = in.nextLine();
 				List<Entry> entries = ctrl.allEntries();
 				System.out.println("For member " + id + "\n");
 				for (int j=0;j<entries.size();j++) {

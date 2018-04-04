@@ -52,7 +52,7 @@ public class TestCases {
     @Test
     public void AddEntryTest () {
         Member m = new Member("Snoop", "9");
-        Entry e = new Entry("cost", 300, 9);
+        Entry e = new Entry("cost", 300, "2");
         boolean ok = this.ctrl.addEntry(e);
         assert(ok);
     }
@@ -60,7 +60,7 @@ public class TestCases {
     @Test
     public void AddEntryRepoTest () {
         Member m = new Member("Snoop", "9");
-        Entry e = new Entry("cost", 300, 9);
+        Entry e = new Entry("cost", 300, "2");
         boolean ok = this.repo.addEntry(e);
         assert(ok);
     }
@@ -68,7 +68,7 @@ public class TestCases {
     @Test
     public void AddEntryBadIdTest () {
         Member m = new Member("Snoop", "DAWG");
-        Entry e = new Entry("cost", 300, 9);
+        Entry e = new Entry("cost", 300, "9");
         boolean ok = this.ctrl.addEntry(e);
         assert(!ok);
     }
@@ -76,7 +76,7 @@ public class TestCases {
     @Test
     public void AddEntryBadIdRepoTest () {
         Member m = new Member("Snoop", "dawg");
-        Entry e = new Entry("cost", 300, 9);
+        Entry e = new Entry("cost", 300, "9");
         boolean ok = this.repo.addEntry(e);
         assert(!ok);
     }
@@ -90,7 +90,7 @@ public class TestCases {
     }
 
     @Test
-    public void UISetIn () {
+    public void UISetScanner () {
         MemberUI ui = new MemberUI(ctrl);
         Scanner nsc = new Scanner(System.in);
         ui.setIn(nsc);

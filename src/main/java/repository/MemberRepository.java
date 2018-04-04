@@ -56,7 +56,7 @@ public class MemberRepository {
 			while ((currentLineEntry = bufferedReaderEntry.readLine()) != null) {
 				String line[] = currentLineEntry.split(";");
 				int valueEntry = Integer.parseInt(line[1]);
-				int idEntryMember = Integer.parseInt(line[2]);
+				String idEntryMember = line[2];
 				Entry e = new Entry(line[0],valueEntry,idEntryMember);
 				this.entries.add(e);			
 			}
@@ -66,10 +66,26 @@ public class MemberRepository {
 	}
 
 	public boolean addMember(Member m){
+		if (members.contains(m)) {
+			return false;
+		}
 		return members.add(m);
 	}
 	public boolean addEntry(Entry e){
-		return entries.add(e);
+		if (this.entries.contains(e)) {
+			return false;
+		}
+		boolean ok = false;
+		for (int i = 0; i < members.size(); i++) {
+			String foo = members.get(i).getId();
+			String bar = e.getIdMember();
+			if (members.get(i).getId().equals(e.getIdMember())) {
+				ok = true;
+			}
+		}
+		if (ok == false) return false;
+		entries.add(e);
+		return true;
 	}
 	public List<Entry> getAllEntries(){
 		return entries;
