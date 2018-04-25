@@ -52,7 +52,7 @@ public class TestCases {
     @Test
     public void AddEntryTest () {
         Member m = new Member("Snoop", "9");
-        Entry e = new Entry("cost", 300, "2");
+        Entry e = new Entry("cost", 300, "id1");
         boolean ok = this.ctrl.addEntry(e);
         assert(ok);
     }
@@ -137,5 +137,33 @@ public class TestCases {
         Entry e = new Entry("cost", 200, "1");
         boolean ok = "idM=1 cost 200".equals(e.toString());
         assert ok;
+    }
+
+    @Test
+    public void ListTest () {
+        Entry e = new Entry("cost", 200, "1");
+        this.repo.addEntry(e);
+        System.out.println(this.ctrl.allEntries());
+        int sum = 0;
+        assert (this.isSum(500));
+    }
+
+    @Test
+    public void BigBang () {
+        this.AddMemberTrue();
+        this.AddEntryTest();
+        this.ListTest();
+        assert (this.isSum(500));
+    }
+
+    public boolean isSum(int sum) {
+        List<Entry> list = this.ctrl.allEntries();
+        int csum = 0;
+        for (int i = 0; i < list.size(); i++) {
+            csum += list.get(i).getValue();
+        }
+        System.out.println(csum);
+        System.out.println(sum);
+        return (csum == sum);
     }
 }
