@@ -33,7 +33,7 @@ public class Entry {
 		return idMember;
 	}
 	public String toString() {
-		String e=" idM=" +this.idMember+" " + this.typeEntry + " " + this.value;
+		String e="idM=" +this.idMember+" " + this.typeEntry + " " + this.value;
 		return e;   
 	}
 	

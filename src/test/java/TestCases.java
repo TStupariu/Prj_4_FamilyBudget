@@ -111,4 +111,31 @@ public class TestCases {
         assert(ok);
     }
 
+    @Test
+    public void AddMemberTrue () {
+        Member m = new Member("Name1", "id1");
+        boolean ok = repo.addMember(m);
+        assert(ok);
+    }
+
+    @Test
+    public void AddMemberFalse () {
+        Member m = new Member("Alex", "1");
+        boolean ok = repo.addMember(m);
+        assert(!ok);
+    }
+
+    @Test
+    public void ToStringMember () {
+        Member m = new Member("Alex", "1");
+        boolean ok = "Alex 1".equals(m.toString());
+        assert ok;
+    }
+
+    @Test
+    public void ToStringEntry () {
+        Entry e = new Entry("cost", 200, "1");
+        boolean ok = "idM=1 cost 200".equals(e.toString());
+        assert ok;
+    }
 }

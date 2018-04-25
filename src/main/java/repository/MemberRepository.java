@@ -66,7 +66,14 @@ public class MemberRepository {
 	}
 
 	public boolean addMember(Member m){
-		if (members.contains(m)) {
+		boolean found = false;
+		for(int i = 0; i < this.members.size(); i++) {
+			Member x = members.get(i);
+			if (members.get(i).getId().equals(m.getId())) {
+				found = true;
+			}
+		}
+		if (found) {
 			return false;
 		}
 		return members.add(m);
@@ -77,8 +84,6 @@ public class MemberRepository {
 		}
 		boolean ok = false;
 		for (int i = 0; i < members.size(); i++) {
-			String foo = members.get(i).getId();
-			String bar = e.getIdMember();
 			if (members.get(i).getId().equals(e.getIdMember())) {
 				ok = true;
 			}
